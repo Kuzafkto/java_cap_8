@@ -9,16 +9,18 @@ public class Arithmetics {
 
     /*esPrimo*/
     public static boolean esPrimo(int x) {
+        boolean prime=true;
        if(x%2==0){
-           return false;
+           prime=false;
        }else{
             for(int i=3;i<(x/2)+1;i+=2){
                 if(x%i==0){
-                    return false;
+                    prime=false;
+                    break;
                 }
             }
-            return true;
        }
+       return prime;
     }
     /*esPrimo*/
 /*siguientePrimo*/
@@ -32,7 +34,7 @@ public class Arithmetics {
     }
     /*siguientePrimo*/
 /*potencia*/
-    public static double potencia(long x,int y){
+    public static double potencia(int x,int y){
         return Math.pow(x,y);
     }
     /*potencia*/
