@@ -161,4 +161,9 @@ public class Digits {
                 }
             }
             segunda idea (devuelve biginteger)*/
+
+    public static String aBinario (int x){
+        return Integer.toBinaryString(x);
+    }
 }
+

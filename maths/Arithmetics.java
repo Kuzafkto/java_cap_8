@@ -10,7 +10,7 @@ public class Arithmetics {
     /*esPrimo*/
     public static boolean esPrimo(int x) {
         boolean prime=true;
-       if(x%2==0){
+       if(x%2==0||x==0||x==1){
            prime=false;
        }else{
             for(int i=3;i<(x/2)+1;i+=2){
