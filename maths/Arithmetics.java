@@ -35,7 +35,19 @@ public class Arithmetics {
     /*siguientePrimo*/
 /*potencia*/
     public static double potencia(int x,int y){
-        return Math.pow(x,y);
+        if(y==0){
+            return 1;
+        }
+        if(y<0){
+            return 1/potencia(x,-y);
+        }
+
+        int n=1;
+        for(int i=0;i<Math.abs(y);i++){
+            n=n*x;
+        }
+
+        return n;
     }
     /*potencia*/
 
