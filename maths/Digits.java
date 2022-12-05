@@ -6,6 +6,8 @@ package maths;
 
 import java.math.BigInteger;
 
+import static maths.Arithmetics.potencia;
+
 public class Digits {
 
     /*digitos*/
@@ -45,6 +47,17 @@ public class Digits {
         System.out.print("\033[0;31m"+"ERROR! (digitoN), por favor ingrese una posición igual o mayor a la longitud del número.\n"+"\033[0m");
         return -1;
     }
+/* Class version
+    public static int digitoN2(long x,int pos){
+      if(pos<0||pos>digitos(x))
+          return -1;
+          return(int)(voltea(x)/(long)potencia(10,pos))%10;
+    }
+    public static int digitoN2(int x,int pos){
+        return digitoN2((long)x,pos );
+    }
+    */
+
     /*digitoN*/
 
     /*posiciónDeDigito*/
@@ -75,7 +88,7 @@ public class Digits {
     public static long quitaPorDetras(long x,int y){
         int digits=digitos(x);
         if(y<digits){
-            return x/(long)Arithmetics.potencia(10,y);
+            return x/(long) potencia(10,y);
         }else{
             System.out.print("\033[0;31m"+"ERROR! (quitaPorDetras), se está intentando quitar todos o los dígitos o mas de los que tiene el número.\n"+"\033[0m");
             return -1;
@@ -87,7 +100,7 @@ public class Digits {
     public static long quitaPorDelante(long x, int y){
         int digits=digitos(x);
         if(y<digits){
-            return x%(int)Arithmetics.potencia(10,digits-y);
+            return x%(int) potencia(10,digits-y);
         }else{
             System.out.print("\033[0;31m"+"ERROR! (quitaPorDelante), se está intentando quitar todos o los dígitos o mas de los que tiene el número.\n"+"\033[0m");
             return -1;
@@ -110,7 +123,7 @@ public class Digits {
     /*pegaPorDelante*/
     public static long pegaPorDelante(long x, int y){
         if(y>0&&y<10){
-            return x+y*(long)Arithmetics.potencia(10,digitos(x));
+            return x+y*(long) potencia(10,digitos(x));
 
         }else {
             System.out.print("\033[0;31m"+"ERROR! (pegaPorDelante), el número a añadir debe ser de un dígito.\n"+"\033[0m");
