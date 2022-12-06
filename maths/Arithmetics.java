@@ -51,5 +51,16 @@ public class Arithmetics {
     }
     /*potencia*/
 
+    public static long aBinario(long x){
+        int decimal=0;
+        int counter=0;
+        while(x>0){
+            decimal+=((x%2)*(int)Arithmetics.potencia(10, counter));
+            x/=2;
+            counter++;
+        }
+        return decimal;
+    }
+
 
 }
