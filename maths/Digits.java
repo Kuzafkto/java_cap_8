@@ -118,6 +118,11 @@ public class Digits {
        }
 
     }
+
+    public static long pegaPorDetras2(long x,int d){
+        return juntaNumeros2(x,d);
+    }
+
     /*pegaPorDetras*/
 
     /*pegaPorDelante*/
@@ -151,6 +156,7 @@ public class Digits {
              return -1;
          }
     }
+
     /*trozoDeNumero*/
 
     /*juntaNumeros*/
@@ -164,6 +170,16 @@ public class Digits {
             y/=10;
         }
         return z;
+    }
+
+    public static long juntaNumeros2(long x, long y){
+        return x*(long)potencia(10,digitos(y))+y;
+
+    }
+
+    public static long juntaNumeros2(int x, int y){
+        return juntaNumeros2((long)x,(long)y);
+
     }
 
 /*juntaNumeros*/
