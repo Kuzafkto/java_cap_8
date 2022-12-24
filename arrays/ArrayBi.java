@@ -118,5 +118,25 @@ public class ArrayBi {
         //delete previous and put
          //return=Array.minimoArrayInt(fila)==a[fil][col]&&Array.maximoArrayInt(columna)==a[fil][col];
     }
-    
+
+    public static int[] diagonal (int [][] a, int fil,int col,String ori){
+        int [] aux= new int[1000];
+        int elementos=0;
+        for(int i=0;i<a.length;i++){
+            for (int j=0;j<a[i].length;j++){
+                if((ori.equals("nose")&&(i<fil&&j>col
+                        ||i>=fil&&j<=col)&&Math.abs(fil-1)==Math.abs(col-j))
+                        ||(ori.equals("neso") && (i<fil&&j<col
+                        ||i>fil&&j<col))){
+                    aux[elementos]=a[i][j];
+                    elementos++;
+                }
+            }
+        }
+        int [] res=new int [elementos];
+        for(int i=0;i<aux.length;i++){
+            res[i]=aux[i];
+        }
+        return res;
+    }
 }
