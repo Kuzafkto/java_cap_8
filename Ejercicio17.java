@@ -1,5 +1,5 @@
 /*
- *
+ *Escribe un programa que pase de binario a decimal.
  *@author KuzaFkto
  */
 
