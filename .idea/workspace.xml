@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9c4fb226-fff9-4685-a3a5-6964d9f76b46" name="Changes" comment=" libreria de arrays bidimensionales ejercicios del 29 al 33">
+      <change beforePath="$PROJECT_DIR$/arrays/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/ArrayBi.java" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/ArrayBi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maths/Digits.java" beforeDir="false" afterPath="$PROJECT_DIR$/maths/Digits.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2I8ubrGgIK9KBqE2n7Z9zfBwXFX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "19",
+    "last_opened_file_path": "C:/Users/Kuza/Desktop/JAVA/LibroJava/java_cap_8",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "vcs.Git"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kuza\Desktop\JAVA\LibroJava\java_cap_8\src" />
+      <recent name="C:\Users\Kuza\Desktop\JAVA\LibroJava\java_cap_8" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Ejercicio18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejercicio18" />
+      <module name="java_cap_8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="java_cap_8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="java_cap_8" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Ejercicio18" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c4fb226-fff9-4685-a3a5-6964d9f76b46" name="Changes" comment="" />
+      <created>1669575606445</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669575606445</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Digits package">
+      <created>1669575682471</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669575682471</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Arithmetics package">
+      <created>1669576018721</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669576018721</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Digits package">
+      <created>1669576079557</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669576079557</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Digits and Arithmetics packages">
+      <created>1669576694983</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669576694983</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Arithmetics return corrections">
+      <created>1669966924012</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669966924012</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Corrections + exercises 15,16 and 17">
+      <created>1670149652691</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670149652691</updated>
+    </task>
+    <task id="LOCAL-00007" summary="potencia without math.pow">
+      <created>1670256387255</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670256387255</updated>
+    </task>
+    <task id="LOCAL-00008" summary="potencia without math.pow">
+      <created>1670256403923</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670256403923</updated>
+    </task>
+    <task id="LOCAL-00009" summary="exercise 18 abd corrections">
+      <created>1670364735783</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670364735783</updated>
+    </task>
+    <task id="LOCAL-00010" summary="exercise 18 and corrections">
+      <created>1670364757869</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670364757869</updated>
+    </task>
+    <task id="LOCAL-00011" summary="exercise corrections + changes on libraries">
+      <created>1670414987132</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670414987133</updated>
+    </task>
+    <task id="LOCAL-00012" summary=" libreria de arrays bidimensionales ejercicios del 29 al 33">
+      <created>1671441872409</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671441872410</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Arithmetics package" />
+    <MESSAGE value="Digits package" />
+    <MESSAGE value="Digits and Arithmetics packages" />
+    <MESSAGE value="Arithmetics return corrections" />
+    <MESSAGE value="Corrections + exercises 15,16 and 17" />
+    <MESSAGE value="potencia without math.pow" />
+    <MESSAGE value="exercise 18 abd corrections" />
+    <MESSAGE value="exercise 18 and corrections" />
+    <MESSAGE value="exercise corrections + changes on libraries" />
+    <MESSAGE value=" libreria de arrays bidimensionales ejercicios del 29 al 33" />
+    <option name="LAST_COMMIT_MESSAGE" value=" libreria de arrays bidimensionales ejercicios del 29 al 33" />
+  </component>
+</project>
