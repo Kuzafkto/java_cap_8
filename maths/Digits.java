@@ -194,5 +194,109 @@ public class Digits {
     public static String aBinario (int x){
         return Integer.toBinaryString(x);
     }
+
+    public static String convierteEnPalotes(int n){
+       
+        if (n==0){
+            return "-";
+        }else{
+            String result="";
+            int counter=1;
+            while(counter<=digitos(n)){
+                for(int i=digitoN(n,counter);i>0;i--){
+                    result+="| ";
+                }if(counter<digitos(n))
+                result+=" - ";
+
+                counter++;
+            }
+            return result;
+        }
+    }
+
+    public static String convierteEnMorse(int n){
+        String result="";
+        int counter=1;
+        while(counter<=digitos(n)){
+                switch(digitoN(n,counter)){
+                    case 1:
+                    result+=". _ _ _ _";
+                    break;
+                    case 2:
+                    result+=". . _ _ _";
+                    break;
+                    case 3:
+                    result+=". . . _ _";
+                    break;
+                    case 4:
+                    result+=". . . . _";
+                    break;
+                    case 5:
+                    result+=". . . . .";
+                    break;
+                    case 6:
+                    result+="_ . . . .";
+                    break;
+                    case 7:
+                    result+="_ _ . . .";
+                    break;
+                    case 8:
+                    result+="_ _ _ . .";
+                    break;
+                    case 9:
+                    result+="_ _ _ _ .";
+                    break;
+                    case 0:
+                    result+="_ _ _ _ _";
+                    break;
+                }
+            counter++;
+        }
+        return result;
+    }
+
+    public static String convierteEnPalabras(int n){
+        String result="";
+        int counter=1;
+        while(counter<=digitos(n)){
+            switch(digitoN(n,counter)){
+                case 1:
+                result+="uno";
+                break;
+                case 2:
+                result+="dos";
+                break;
+                case 3:
+                result+="tres";
+                break;
+                case 4:
+                result+="cuatro";
+                break;
+                case 5:
+                result+="cinco";
+                break;
+                case 6:
+                result+="seis";
+                break;
+                case 7:
+                result+="siete";
+                break;
+                case 8:
+                result+="ocho";
+                break;
+                case 9:
+                result+="nueve";
+                break;
+                case 0:
+                result+="cero";
+                break;
+            }
+            
+          if(counter<digitos(n))
+          result+=", ";
+        counter++;
+    }
+        return result;
+    }
 }
 

@@ -113,7 +113,7 @@ public class ArrayBi {
         return false;
         int[] fila=filaDeArrayBiInt(a, fil);
         int[] columna=columnaDeArrayBiInt(a, col);
-        //ret=Array.minimoArrayInt(fila)==a[fil][col]&&Array.maximoArrayInt(columna)==a[fil][col];
+        ret=Array.minimoArrayInt(fila)==a[fil][col]&&Array.maximoArrayInt(columna)==a[fil][col];
         return ret;
         //delete previous and put
          //return=Array.minimoArrayInt(fila)==a[fil][col]&&Array.maximoArrayInt(columna)==a[fil][col];
@@ -139,4 +139,45 @@ public class ArrayBi {
         }
         return res;
     }
+
+    public static int nEsimo(int[][] n, int posicion){
+        /*
+         * First version (wrong one because doesn't returns -1 and doesn't checks the lenght of the line or/and row):
+         *  return n[(posicion/(n.length+1))][(posicion%(n[(posicion/(n.length+1))].length))];
+         */
+      int counter=0;
+      for(int i=0;i<n.length;i++){
+        for (int j=0;j<n[i].length;j++){
+            if(counter==posicion){
+                return n[i][j];
+            }else{
+                counter++;
+            }
+        }
+      }
+      return -1;
+    } 
+
+    public static int[] corteza(int[][] n){
+        int []aux=new int[(n[0].length-1)*2+(n.length-1)*2];
+        int counter=0;
+        for(int i=0;i<n[0].length;i++){
+            aux[counter]=n[0][i];
+            counter++;
+        }
+        for(int i=1;i<n.length;i++){
+            aux[counter]=n[i][n[i].length-1];
+            counter++;
+        }
+        for (int i=(n[n.length-1].length-1)-1;i>=0;i--){
+            aux[counter]=n[n.length-1][i];
+            counter++;
+        }
+        for(int i=n.length-2;i>=1;i--){
+            aux[counter]=n[i][0];
+            counter++;
+        }
+        return aux;
+    }
+
 }
